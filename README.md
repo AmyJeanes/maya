@@ -29,6 +29,24 @@ python -m venv .venv
 
 ## Install PyTorch
 
+Run `nvidia-smi` in a terminal to check your CUDA version. It should be listed at the top right, e.g. `CUDA Version: 13.0`, for example:
+
+```
+> nvidia-smi
+Tue Nov 25 16:17:41 2025
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 581.80                 Driver Version: 581.80         CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5090      WDDM  |   00000000:01:00.0  On |                  N/A |
+| 30%   34C    P0             73W /  600W |   10638MiB /  32607MiB |      3%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+```
+
 Go to https://pytorch.org/get-started/locally/ and pick the appropriate CUDA platform for your system e.g. CUDA 13.0 and run the install command provided, e.g. for CUDA 13.0:
 
 ```
