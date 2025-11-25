@@ -1,10 +1,12 @@
-# Maya voice model
+# Transformers Notebooks
 
-This is a sample notebook setup to try out the Maya1 TTS model from https://huggingface.co/maya-research/maya1
+This is a collection of notebooks powered by HuggingFace transformers:
 
-The code is based on the [quick start code example](https://huggingface.co/maya-research/maya1#quick-start-generate-voice-with-emotions) modified slightly to work better in a notebook.
+Notebooks included:
+- [Maya1 TTS Model](https://huggingface.co/maya-research/maya1)
+  - The code is based on the [quick start code example](https://huggingface.co/maya-research/maya1#quick-start-generate-voice-with-emotions) modified slightly to work better in a notebook.
 
-This repository, except for the `snac` and `soundfile` requirements and the actual `main.ipynb`, is essentially a setup guide for HuggingFace transformers and could be repurposed to run many different things.
+This repository is essentially a setup guide for HuggingFace transformers and could be repurposed to run many different things.
 
 # First time setup
 
@@ -14,7 +16,7 @@ Make sure Python 3.10+ is installed on your system before running any commands.
 
 The latest CUDA toolkit is installed (if using a Nvidia GPU): https://developer.nvidia.com/cuda-downloads
 
-All commands must be ran in the folder of this repository e.g. `C:\_git\maya`
+All commands must be ran in the folder of this repository e.g. `C:\_git\transformers-notebooks`
 
 ## Create virtual environment
 
@@ -83,7 +85,7 @@ python -m uv pip install -r requirements.txt
 
 ## Usage
 
-Open this repository folder in VSCode and open `main.ipynb`
+Open this repository folder in VSCode and open the notebook you wish to try.
 
 Make sure the virtual environment is selected as the interpreter (top right corner). It may say `Select Kernel` if nothing is active:
 
@@ -93,8 +95,6 @@ Make sure the virtual environment is selected as the interpreter (top right corn
 
 ![Select Kernel](images/select_kernel_3.png)
 
-Then run the cells in order to generate audio.
-
-The generated audio files will be displayed and optionally saved in the `output` folder.
+Instructions for each notebook will be contained within it, but essentially just run the code cells in order.
 
 If you want to run anything on the command line, make sure to activate the virtual environment first as above.
