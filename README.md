@@ -37,6 +37,8 @@ python -m venv .venv
 pip install uv
 ```
 
+Note: You might get a warning from VS Code saying the package may have been installed to the global environment. This is wrong if you have activated the virtual environment correctly, so you can ignore this warning.
+
 ### Install PyTorch
 
 Run `nvidia-smi` in a terminal to check your CUDA version. It should be listed at the top right, e.g. `CUDA Version: 13.0`, for example:
