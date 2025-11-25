@@ -4,6 +4,8 @@ This is a sample notebook setup to try out the Maya1 TTS model from https://hugg
 
 # First time setup
 
+Make sure all commands are ran in the folder of this repository e.g. `C:\_git\maya`
+
 ## Create virtual environment
 
 ```
