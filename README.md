@@ -3,7 +3,7 @@
 This is a collection of notebooks powered by HuggingFace transformers:
 
 Notebooks included:
-- [Maya1 TTS Model](https://huggingface.co/maya-research/maya1)
+- [Maya1 TTS Model](https://huggingface.co/maya-research/maya1) (`maya1.ipynb`)
   - The code is based on the [quick start code example](https://huggingface.co/maya-research/maya1#quick-start-generate-voice-with-emotions) modified slightly to work better in a notebook.
 
 This repository is essentially a setup guide for HuggingFace transformers and could be repurposed to run many different things.
