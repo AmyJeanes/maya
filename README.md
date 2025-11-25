@@ -2,6 +2,8 @@
 
 This is a sample notebook setup to try out the Maya1 TTS model from https://huggingface.co/maya-research/maya1
 
+The code is based on the [quick start code example](https://huggingface.co/maya-research/maya1#quick-start-generate-voice-with-emotions) modified slightly to work better in a notebook.
+
 # First time setup
 
 Make sure all commands are ran in the folder of this repository e.g. `C:\_git\maya`
